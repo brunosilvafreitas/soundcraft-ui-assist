@@ -1,0 +1,16 @@
+{
+  "name": "soundcraft-ui-assist",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Monorepo for soundcraft-ui-assist with backend and frontend",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:backend": "pnpm --filter soundcraft-ui-assist/backend dev",
+    "dev:frontend": "pnpm --filter soundcraft-ui-assist/frontend dev"
+  },
+  "devDependencies": {
+    "pnpm": "^9.0.0"
+  }
+}
